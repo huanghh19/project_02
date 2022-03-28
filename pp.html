@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/animate.js"></script>
+    <script src="./js/pp.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .banner {
+        overflow: hidden;
+        padding-top: 30px;
+        position: relative;
+      }
+      ul {
+        overflow: hidden;
+        width: 500%;
+        height: 100px;
+        list-style: none;
+        margin-left: -100%;
+      }
+      ul li {
+        width: 20%;
+        float: left;
+      }
+      img {
+        width: 100%;
+        height: 100px;
+      }
+      ol {
+        position: absolute;
+        list-style: none;
+        bottom: 5px;
+        right: 5px;
+      }
+      ol li {
+        float: left;
+        width: 5px;
+        margin-right: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: #fff;
+      }
+      .current{
+        background-color: rgb(233, 20, 20);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./uploads/brand_goods_1.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_2.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_3.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_1.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_2.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_1.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_4.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_1.jpg"></div>
+          <div class="swiper-slide"><img src="./uploads/brand_goods_2.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </body>
+</html>

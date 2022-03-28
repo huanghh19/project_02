@@ -1,0 +1,109 @@
+img {
+  width: 500px;
+  height: 300px;
+}
+ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 600%;
+}
+ul li {
+  float: left;
+}
+.banner {
+  overflow: hidden;
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+.middle {
+  position: relative;
+  display: none;
+}
+.middle .left {
+  position: absolute;
+  border-radius: 50%;
+  left: 10px;
+  top: 150px;
+  font-size: 24px;
+  color: azure;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  transform: translateY(-50%);
+  background-color: rgba(247, 242, 242, 0.5);
+  cursor: pointer;
+}
+.middle .right {
+  position: absolute;
+  border-radius: 50%;
+  right: 10px;
+  top: 150px;
+  font-size: 24px;
+  color: azure;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  background-color: rgba(252, 249, 249, 0.5);
+  cursor: pointer;
+}
+ol {
+  position: absolute;
+  widows: 100px;
+  height: 50px;
+  top: 250px;
+  left: 250px;
+  transform: translateX(-50%);
+}
+
+ol li {
+  margin-left: 10px;
+  float: left;
+}
+ol li span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  z-index: 5;
+  background-color: rgb(175, 171, 171);
+  opacity: 0.5;
+  border-radius: 5px 5px 5px 5px;
+}
+ol li .current2 {
+  background-color: rgb(228, 20, 176);
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
